@@ -1,10 +1,18 @@
+body {
+  background-color: #5e8eba;
+}
+
 h1 {
   text-align: center;
+  color: white;
 }
 
 p {
+  text-align: center;
   margin: 30px;
   margin-bottom: 50px;
+  color: white;
+  line-height: 1.4;
 }
 .container {
   display: flex;
@@ -12,7 +20,20 @@ p {
   margin-top: 25px;
 }
 
-img {
+.croissant-photo {
   max-width: 100%;
-  height: auto;
+  border-radius: 10px;
+  border: solid white;
+  display: block;
+  margin: 30px auto;
+}
+
+footer {
+  text-align: center;
+  color: white;
+}
+
+footer a {
+  margin: 0 10px;
+  color: white;
 }
